@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+        table {
+            border-collapse: collapse;
+            width: 45%;
+            font-size: 30px;
+            text-align: left;
+            font-family: 'Quicksand', sans-serif;
+        }
+        th {
+            border: 2px solid black;
+            padding: 5px;
+        }
+        td {
+            border: 2px solid black;
+            padding: 5px;
+        }
+        .color1 {
+            background:#FEA500;
+            color: white;
+        }
+        .color2 {
+            background:#4F4FFF;
+            color: white;
+        }
+        .color3 {
+            background:#16C03B;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Vardas:</th>
+          <td>Jonas Žirmūnas</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Telefono numeris:</th>  
+          <td>55577854</td>
+        <tr>     
+            <td>55577855</td>
+        </tr>       
+        </tr>  
+        <tr>
+          <th rowspan="3">Mėgstamiausios spalvos</th>
+          <td class="color1">Oranžinė</td>
+        </tr>
+        <tr>
+          <td class="color2">Mėlyna</td>
+        </tr>
+        <tr>
+          <td class="color3">Žalia</td>
+        </tr>
+      </table>
+</body>
+</html>
